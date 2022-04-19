@@ -1,0 +1,146 @@
+
+
+/* star selector slects everything on the page. This will make it so
+everything will stay the same uniform size.*/
+* {
+
+}
+
+body {
+	
+	background-color: white;
+	height: auto;
+/*this is a class reference to the big hero photo so it only 
+edits this photo and not all of the images.*/
+
+}
+
+/*this is changing the paragraph*/
+p {
+	color: black;
+	 /* add padding to create white space, could also create (margin bottom)*/
+	/*padding: 5rem;*/
+	/*margin-bottom: 1rem;*/
+}
+
+/*this changes the entire main area. Padding gives white space. Margin
+is used to space things away. Padding creates white space around, used for the
+inside of a container. Marigin gets added to the outside of that. HTML
+adds margin as a default Can also do padding padding right, top, bottom,
+left. With no specification, you are adding it all around.*/
+main {
+	font-family: baskerville-urw, serif;
+	font-weight: 400;
+	font-style: normal;
+	padding: auto;
+	max-width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+	color: #black;
+	text-align: center;
+	
+
+}
+
+/*li {
+	float left;
+}*/
+
+li a {
+	display:  block;
+	color: whitesmoke;
+	text-align: center;
+	padding:  14 px 16 px;
+	text-decoration:  none;
+}
+/*margin auto says, "whatever space is left, fill that up"*/
+.main-content img {
+	width: auto;
+	text-align: center;
+	border: 1rem solid #8B6089;
+	box-sizing:  border-box;
+	transition: all .5s;
+	border-radius: 15%;
+	margin:  3rem
+}
+ 
+.main-content h1{
+	text-align: center;
+}
+
+.main-content p{
+	text-align: center;
+	
+
+
+}
+
+.side-content img {
+	border:  1rem solid #8B6089;
+	box-sizing:  border-box;
+	transition: all .5s;
+	text-align: center;
+	width: auto;
+	margin: 3rem;
+	border-radius: 15%;
+
+	
+
+
+}
+
+
+
+header{
+	border-bottom:  1 rem solid #8B6089;
+	text-align: center;
+	background-color: transparent;
+}
+
+/* covers all links on the page. Wherever there is an a tag */
+a { 
+	color: white;
+	text-decoration: none;
+	background-color: #8B6089;
+
+	/*1 rem = 1 rem on all 4 sides or you can add 4 and it will go on the 
+	right sides*/
+	padding: .5rem 1rem .5rem 1rem;
+	/*round off corners*/
+	border-radius: .25rem;
+	}
+/*1 rem = 16 px. 16px is default font size or 1 rem */
+
+a:hover{
+	background-color: #707070;
+}
+
+p{
+	font-family: quasimoda,sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	text-align: right;
+}
+footer{
+  background-color: #8B6089;
+  padding: 5px;
+  width: 100%;
+}
+footer p {
+	margin-top: 10;
+	color: #FFFFFF;
+	text-align: center;
+}
+/* got rid of the bullet points*/
+ul {
+	padding: 0;
+	marigin: 0;
+	list-style: none;
+  	overflow: hidden;
+  	background-color: #8B6089;
+  	text-align: center;
+}
+li {
+	display: inline-block;
+}
