@@ -1,0 +1,206 @@
+h1 {
+    font-family: 'Cinzel', serif;
+    color: #5F5F5F;
+}
+
+
+p {
+    font-family: 'Fauna One', serif;
+    color: #b3cdd8;
+}
+
+.Logo {
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+ 
+
+}
+
+#privatebeachimg{
+    height:17.5rem;
+}
+#eventsimg{
+    height:17.5rem;
+}
+
+.HeroImage {
+    position: relative;
+}
+
+.bigherotext {
+    position: absolute;
+    color: #FFFFFF;
+    padding-top: 27rem;
+    padding-left: 26rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.description {
+    background-color: #5F5F5F;
+    margin-top: 5rem;
+}
+
+#bookstaydescription {
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 3rem;
+    width: 50rem;
+    margin: 0 auto;
+    font-family: 'Fauna One', serif;
+    font-size: 1.5rem;
+}
+
+#bookstayheading {
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+#featuresheading {
+    text-align: center;
+    color: #5F5F5F;
+    margin: 4rem;
+}
+
+.featureimgs img {
+    border: .5rem solid #b3cdd8;
+    margin-bottom: 2rem;
+}
+
+.featureimgs h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: #5F5F5F;
+}
+
+
+
+.featureimgs p {
+    text-align: center;
+}
+
+
+.specialtyimgs {
+    text-align: center;
+    background-color: #b3cdd8;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
+.suiteheading {
+    background-color: #b3cdd8;
+}
+
+.specialtyimgs img {
+    border: .5rem solid #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.specialtyimgs p {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.specialtyimgs h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#specialtyheading {
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.bookinginfo h2{
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Cinzel', serif;
+    color: #5F5F5F;
+}
+
+.table1{
+    margin-bottom: 0rem;
+    background-color: #b3cdd8;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+
+}
+
+table{
+    border: .5rem solid #FFFFFF;
+}
+
+.table th{
+    font-family: 'Fauna One', serif;
+    color: #5F5F5F;
+}
+.span2{
+    margin-top: 1rem;
+}
+.overlay h2{
+    font-family: 'Fauna One', serif;
+    color: #5F5F5F;;
+}
+
+#confirmation-overlay{
+    width: 100%;
+}
+
+
+#submitbutton{
+    background-color: #b3cdd8;
+    font-family: 'Fauna One', serif;
+}
+
+
+.footer {
+    background-color: #5F5F5F;
+    padding-top: 2rem;
+}
+
+.footer a {
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-align: center;
+
+}
+
+.footer a:hover {
+    color: #b3cdd8;
+}
+
+.text {
+    text-align: center;
+}
+
+.text a {
+    padding: 1rem;
+    color: #FFFFFF;
+}
+
+#footerlogo {
+    padding-bottom: 2rem;
+    padding-left: 6rem;
+    text-align: center;
+    padding-left: 30rem;
+    width: 60rem;
+}
+
+.contactinfo {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.allrights {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.allrights p {
+    color: #FFFFFF;
+}

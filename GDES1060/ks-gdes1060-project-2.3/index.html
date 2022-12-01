@@ -1,0 +1,193 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oceanview</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/foundation-datepicker.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Fauna+One&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <div class="Logo">
+            <img src="img/oceaviewlogobighero.jpeg" alt="Oceanview Logo">
+        </div>
+    </header>
+    <section class="BigHero">
+        <div class="HeroImage">
+            <h1 class="bigherotext">"A stay you'll remember"</h1>
+            <img class="BigHeroImg" src="img/bighero.jpg" alt="big hero beach image">
+        </div>
+    </section>
+    <!--
+    - datepicker widget (be careful when editing)
+    - displays two fields in two columns
+    - place this inside one of your page sections
+    -->
+    <div class="description">
+        <h1 id="bookstayheading">Luxury Resort with Oceanviews</h1>
+        <h2 id="bookstaydescription">Oceanview is a luxury hotel for only the richest people. We offer a personal experience of a lifetime. You want it? We got it.</h2>
+    </div>
+    <section class="features">
+        <h1 id="featuresheading">EXPERIENCES</h1>
+        <div class="featureimgs">
+            <div class="grid-container">
+                <div class="grid-x grid-margin-x grid-margin-y center">
+                    <div class="cell medium-4">
+                        <img src="img/privatebeach.jpg" id="privatebeachimg">
+                        <h1>PRIVATE BEACH</h1>
+                        <p>Enjoy the ocean air and privacy with your own private beach</p>
+                    </div>
+                    <div class="cell medium-4">
+                        <img src="img/events.jpg" id="eventsimg">
+                        <h1>EVENTS</h1>
+                        <p>Check the Oceanview calendar for all events and activities</p>
+                    </div>
+                    <div class="cell medium-4">
+                        <img src="img/spa.jpg" id="spaimg">
+                        <h1>SPA & SALON</h1>
+                        <p>Spend your stay relaxing and replenishing at our in-house spa and salon</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="specialtysuites">
+        <div class="suiteheading">
+            <h1 id="specialtyheading">SPECIALTY SUITES</h1>
+        </div>
+        <div class="specialtyimgs">
+            <div class="grid-container">
+                <div class="grid-x grid-margin-x grid-margin-y center">
+                    <div class="cell medium-6">
+                        <img src="img/narragansett.jpg" alt="Narragansett Suite">
+                        <h1>NARRAGANSETT SUITE</h1>
+                        <p>A suite with an ocean view, 1500 thread count sheets, and marble floors from a Roman architect</p>
+                    </div>
+                    <div class="cell medium-6">
+                        <img src="img/matunuck.jpg" alt="Matunuck Suite">
+                        <h1>MATUNUCK SUITE</h1>
+                        <p>A suite with an ocean view, light bulbs imported from France, and the carpet is constructed from $100 bills</p>
+                    </div>
+                    <div class="cell medium-6">
+                        <img src="img/judith.jpg" alt="Judith Suite">
+                        <h1>JUDITH SUITE</h1>
+                        <p>A suite with an ocean view, pillows made by Picasso, and carpet made from sheep's fur and skin</p>
+                    </div>
+                    <div class="cell medium-6">
+                        <img src="img/newport.jpg" alt="Newport Suite">
+                        <h1>NEWPORT SUITE</h1>
+                        <p>A suite with an ocean view, hardwood floor from the Amazon Rainforest, and blankets made from chimpanzee pelt</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="bookinginfo">
+        <h2>Book your stay now!</h2>
+    </div>
+    <section class="table1">
+        <div class="grid-container">
+            <div class="grid-x">
+                <div class="cell">
+    <table class="table">
+        <thead>
+            <tr class="grid-x">
+                <th class="cell small-6">Check in:
+                    <input type="text" class="span2" value="" id="dpd1">
+                </th>
+                <th class="cell small-6">Check out:
+                    <input type="text" class="span2" value="" id="dpd2">
+                </th>
+            </tr>
+            <tr class="grid-x">
+                <th class="cell">
+                    <input id="submitbutton" type="submit" class="submit button radius small" value="Check Availability" data-open="confirmation-overlay">
+                </th>
+            </tr>
+        </thead>
+    </table>
+</div>
+</div>
+</div>
+</section>
+
+    <!--
+    - overlay window with spans used to show data from datepicker
+    - edit the grid however you would like to fit your layout, but
+    - do not delete the <span class="dpd1"></span> and <span class="dpd2"></span> tags, these are used to show the user the dates they selected
+    - this section can go anywhere in your code, but to keep things organized, place it after the section where you have your date picker form
+    -->
+    <div id="confirmation-overlay" class="reveal" data-reveal>
+        <div class="grid-x">
+            <div class="cell large-7">
+                <div class="overlay">
+                    <h1>Success</h1>
+                    <h2>You've booked a room from <span class="dpd1"></span> to <span class="dpd2"></span>.</h2>
+                </div>
+            </div>
+        </div>
+        <button class="close-button" data-close aria-label="Close modal" type="button"><span aria-hidden="true">&times;</span></button>
+    </div>
+    <!--
+
+    - do not delete anything below this line
+    - do not place any code below this line
+
+    -->
+    <section class="footer">
+        <img id="footerlogo" src="img/oceaviewlogobighero.png" alt="Oceanview Logo">
+        <div class="grid-container">
+            <div class="grid-x grid-margin-x grid-margin-y center">
+                <div class="cell medium-2">
+                    <a href="#">About Us</a>
+                </div>
+                <div class="cell medium-2">
+                    <a href="#">Spa</a>
+                </div>
+                <div class="cell medium-2">
+                    <a href="#">Careers</a>
+                </div>
+                <div class="cell medium-2">
+                    <a href="#">Experiences</a>
+                </div>
+                <div class="cell medium-2">
+                    <a href="#">Suites</a>
+                </div>
+                <div class="cell medium-2">
+                    <a href="#">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="contactinfo">
+            <p id="contact">(401) 123-4567</p>
+            <p id="addy">123 Oceanview Ave Westerly, RI 02192</p>
+        </div>
+        <div class="text">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-envelope"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+        </div>
+        <div class="allrights">
+            <p>All rights reserved. Oceanview &copy 2022.</p>
+        </div>
+    </section>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/vendor/foundation-datepicker.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
