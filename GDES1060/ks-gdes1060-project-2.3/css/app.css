@@ -17,6 +17,10 @@ p {
 
 }
 
+header img{
+    height: 3rem;
+}
+
 #privatebeachimg{
     height:17.5rem;
 }
@@ -39,7 +43,11 @@ p {
 
 .description {
     background-color: #5F5F5F;
-    margin-top: 5rem;
+ 
+}
+
+.features{
+    margin-bottom: 3rem;
 }
 
 #bookstaydescription {
